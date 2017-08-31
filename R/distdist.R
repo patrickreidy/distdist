@@ -1,0 +1,41 @@
+
+
+#' distdist: Distances on Distributions
+#'
+#' Defines an S4 class for arbitrary discrete distributions and S4 methods
+#' for divergences, distances, and metrics between distributions. Many of the
+#' functions described in Chapter 14 of \emph{Encyclopedia of Distances}
+#' (Deza & Deza, 2009) are provided here.
+#'
+#' @section Functions related to the \emph{p}-metric:
+#'   \itemize{
+#'     \item \code{\link{pMetric}}
+#'     \item \code{\link{Manhattan}}
+#'     \item \code{\link{TotalVariation}}
+#'     \item \code{\link{Euclidean}}
+#'   }
+#'
+#' @section Functions related to the fidelity similarity (also known as Bhattacharya coefficient or Hellinger affinity):
+#'   \itemize{
+#'     \item \code{\link{Fidelity}}
+#'     \item \code{\link{Bhattacharya1}}
+#'     \item \code{\link{Bhattacharya2}}
+#'     \item \code{\link{Hellinger}}
+#'     \item \code{\link{JeffriesMatusita}}
+#'   }
+#'
+#' @section Functions related to the information-theoretic deviation:
+#'   \itemize{
+#'     \item \code{\link{KullbackLeibler}}
+#'     \item \code{\link{JensenShannon}}
+#'     \item \code{\link{Jeffrey}}
+#'     \item \code{\link{Topsoe}}
+#'   }
+#'
+#' @importFrom magrittr %>%
+#' @importFrom rlang .data
+#' @importFrom tibble as_tibble
+#'
+#' @docType package
+#' @name distdist-package
+NULL
