@@ -1,6 +1,9 @@
 
 # distdist
 
+[![Build Status](https://travis-ci.org/patrickreidy/distdist.svg?branch=master)](https://travis-ci.org/patrickreidy/distdist)
+[![Coverage Status](https://coveralls.io/repos/github/patrickreidy/distdist/badge.svg?branch=master&bust=1)](https://coveralls.io/github/patrickreidy/distdist)
+
 Defines an S4 class for arbitrary discrete distributions and S4 methods
 for divergences, distances, and metrics between distributions. Many of the
 functions described in Chapter 14 of _Encyclopedia of Distances_
