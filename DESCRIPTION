@@ -1,0 +1,25 @@
+Package: distdist
+Title: Distances on Distributions
+Version: 0.0.1
+Authors@R: as.person(c("Patrick Reidy <reidy@utdallas.edu> [aut, cre]"))
+Description: Defines an S4 class for arbitrary discrete distributions and
+  S4 methods for divergences, distances, and metrics between distributions.
+Depends: R (>= 3.4.0)
+Imports:
+  dplyr,
+  magrittr,
+  methods,
+  purrr,
+  rlang,
+  stringr,
+  tibble,
+  tidyr
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 6.0.1
+Collate:
+    'distribution.R'
+    'distances.R'
+    'distdist.R'
+Suggests: testthat
