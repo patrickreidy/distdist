@@ -27,7 +27,7 @@ methods::setValidity(
     p_error <- ifelse(!("P" %in% names(object)) ||
                         class(object[["P"]]) != "numeric" ||
                         length(which(object[["P"]] < 0)) > 0 ||
-                        sum(object[["P"]]) != 1,
+                        abs(sum(object[["P"]]) - 1) > .Machine$double.eps,
                       p_msg, "")
     # A distribution must be defined over a random variable---a variable other than P.
     rv <-
